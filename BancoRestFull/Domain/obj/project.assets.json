@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

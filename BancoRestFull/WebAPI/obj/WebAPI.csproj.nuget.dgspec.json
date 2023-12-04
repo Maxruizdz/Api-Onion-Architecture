@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\Application\\Application.csproj": {
+    "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\Application\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "AutoMapper": {
               "target": "Package",
               "version": "[12.0.1, )"
@@ -60,6 +64,10 @@
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
               "version": "[11.8.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -86,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -115,8 +123,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\Application\\Application.csproj"
+              "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Application\\Application.csproj"
               }
             }
           }

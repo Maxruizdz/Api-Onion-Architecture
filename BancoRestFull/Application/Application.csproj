@@ -7,18 +7,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Feautres\Cliente\Commands\DeleteClienteCommand\**" />
+    <Compile Remove="Feautres\Cliente\Queries\**" />
+    <EmbeddedResource Remove="Feautres\Cliente\Commands\DeleteClienteCommand\**" />
+    <EmbeddedResource Remove="Feautres\Cliente\Queries\**" />
+    <None Remove="Feautres\Cliente\Commands\DeleteClienteCommand\**" />
+    <None Remove="Feautres\Cliente\Queries\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Specification" Version="7.0.0" />
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="FluentValidation" Version="11.8.1" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.1" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Feautres\Cliente\Commands\DeleteClienteCommand\" />
     <Folder Include="Feautres\Cliente\Commands\UpdateClienteCommand\" />
-    <Folder Include="Feautres\Cliente\Queries\GetAllCliente\" />
-    <Folder Include="Feautres\Cliente\Queries\GetIdCliente\" />
   </ItemGroup>
 
 </Project>

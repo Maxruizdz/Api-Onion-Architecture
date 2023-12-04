@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zhWchpy9JfCcD99+8Wi3Ccu2Vgz3jvIflD57PBwbJ0p/QL25ncC6TDSx/CFa2ae4PYSEbqSe61o3MlNXr10DOw==",
+  "dgSpecHash": "cHGgJYbZQBdr8Yy/3kdMazt4UvUlzlKb3+T4txJZ5RCr1BE1fjwWQwFp69jzCH9P6/FWwjNMGeiDgPo4PGAxFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\Desktop\\BancoApiFull\\BancoRestFull\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
