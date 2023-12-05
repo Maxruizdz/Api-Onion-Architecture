@@ -35,6 +35,7 @@ namespace Domain.Entities
             
             
             }
+            private set { this.edad = value; }
         
         
         }

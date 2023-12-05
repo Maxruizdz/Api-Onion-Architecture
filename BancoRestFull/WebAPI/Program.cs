@@ -1,10 +1,15 @@
 using Application;
+using Persistence;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using Shared;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.by
+
 builder.Services.AddApplicationLayer();
+builder.Services.AddPersistenceInfraestructure(builder.Configuration);
+builder.Services.AddSharedInFraestructure(builder.Configuration);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

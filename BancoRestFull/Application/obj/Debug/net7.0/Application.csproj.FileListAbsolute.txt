@@ -1,11 +1,11 @@
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\bin\Debug\net7.0\Application.deps.json
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\bin\Debug\net7.0\Application.dll
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\bin\Debug\net7.0\Application.pdb
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
-C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\bin\Debug\net7.0\Application.deps.json
-C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\bin\Debug\net7.0\Application.dll
-C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\bin\Debug\net7.0\Application.pdb
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\Application.dll
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\refint\Application.dll
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\Application.pdb

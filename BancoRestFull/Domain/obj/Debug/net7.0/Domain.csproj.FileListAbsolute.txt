@@ -1,0 +1,11 @@
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Domain\obj\Debug\net7.0\ref\Domain.dll
