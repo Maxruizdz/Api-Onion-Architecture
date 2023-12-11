@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Feautres\Cliente\Commands\DeleteClienteCommand\**" />
-    <Compile Remove="Feautres\Cliente\Queries\**" />
-    <EmbeddedResource Remove="Feautres\Cliente\Commands\DeleteClienteCommand\**" />
-    <EmbeddedResource Remove="Feautres\Cliente\Queries\**" />
-    <None Remove="Feautres\Cliente\Commands\DeleteClienteCommand\**" />
-    <None Remove="Feautres\Cliente\Queries\**" />
+    <Compile Remove="Feautres\Clientes\Commands\DeleteClienteCommand\**" />
+    <Compile Remove="Feautres\Clientes\Queries\**" />
+    <EmbeddedResource Remove="Feautres\Clientes\Commands\DeleteClienteCommand\**" />
+    <EmbeddedResource Remove="Feautres\Clientes\Queries\**" />
+    <None Remove="Feautres\Clientes\Commands\DeleteClienteCommand\**" />
+    <None Remove="Feautres\Clientes\Queries\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,7 +26,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Feautres\Cliente\Commands\UpdateClienteCommand\" />
+    <Folder Include="Feautres\Clientes\Commands\UpdateClienteCommand\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Feautres.Cliente.Commands.CreateClienteCommand
+namespace Application.Feautres.Clientes.Commands.CreateClienteCommand
 {
     public class CreateClienteCommandValidator :AbstractValidator<CreateClienteCommand> 
     {
 
         
-
+        
 
         public CreateClienteCommandValidator() { 
         

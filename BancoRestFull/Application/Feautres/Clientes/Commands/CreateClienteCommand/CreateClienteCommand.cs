@@ -1,17 +1,23 @@
-﻿using Application.Wrappers;
+﻿using Application.Interfaces;
+using Application.Wrappers;
+using Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Entities;
 
-namespace Application.Feautres.Cliente.Commands.CreateClienteCommand
+
+
+namespace Application.Feautres.Clientes.Commands.CreateClienteCommand
 {
     public class CreateClienteCommand: IRequest<Response<int>>
     {
 
-
+        
         public string nombre { get; set; }
         public string apellido { get; set; }
         public DateTime fecha_nacimiento { get; set; }
@@ -26,11 +32,5 @@ namespace Application.Feautres.Cliente.Commands.CreateClienteCommand
 
     }
 
-    public class CreateClientCommandHandler : IRequestHandler<CreateClienteCommand, Response<int>>
-    {
-        public Task<Response<int>> Handle(CreateClienteCommand request, CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
-        }
-    }
+    
 }

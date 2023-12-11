@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s5t+cvzMfzC8TVIyKBxe6bQqsDfrFrPms1vpY0eevtR1HyAytuvfyKd5CElIUZLiDyM9l7FYJeW3u28BabDtXg==",
+  "dgSpecHash": "QsCNF7fUXf0efZ4amleyCPYF7utB5l08UwQizNB1WPD5G6ul3GtC9aTz1bpAk2hFNR26ieNpSDGI2JIPeGgxwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\usuario\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

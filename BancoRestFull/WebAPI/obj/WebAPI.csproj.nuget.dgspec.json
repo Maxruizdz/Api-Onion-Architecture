@@ -32,7 +32,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -369,6 +373,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

@@ -32,7 +32,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\usuario\\Desktop\\Api-Onion-Architecture\\BancoRestFull\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
