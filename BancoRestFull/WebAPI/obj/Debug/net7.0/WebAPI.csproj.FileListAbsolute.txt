@@ -92,3 +92,4 @@ C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\obj\Debug\n
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\obj\Debug\net7.0\ref\WebAPI.dll
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\bin\Debug\net7.0\Shared.dll
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\bin\Debug\net7.0\Shared.pdb
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll

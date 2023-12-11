@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using Application.Behaviours;
+using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -24,6 +25,10 @@ namespace Application
               
             
             });
+         
+            
+            services.AddTransient(typeof(IPipelineBehavior<,>),  typeof(ValidatorBehaviour<,>));
+         
         }
 
     }

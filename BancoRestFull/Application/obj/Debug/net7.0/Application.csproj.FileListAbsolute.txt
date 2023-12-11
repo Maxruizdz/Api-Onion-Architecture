@@ -10,3 +10,6 @@ C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\De
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\refint\Application.dll
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\Application.pdb
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\ref\Application.dll
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\bin\Debug\net7.0\Domain.dll
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\bin\Debug\net7.0\Domain.pdb
+C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\Application\obj\Debug\net7.0\Application.csproj.CopyComplete

@@ -22,7 +22,7 @@ namespace Persistence.Configuration
             builder.Property(p => p.Email).HasMaxLength(100);
             builder.Property(P => P.Direccion).HasMaxLength(120);
             builder.Property(p => p.Edad);
-            builder.Property(P => P.CreatedBy).HasMaxLength(30);
+            builder.Property(P => P.CreatedBy).HasMaxLength(30).IsRequired(false);
             builder.Property(P => P.LastModifiedBy).HasMaxLength(30);
 
 

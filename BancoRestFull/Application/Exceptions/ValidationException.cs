@@ -23,7 +23,7 @@ namespace Application.Exceptions
 
         public ValidationException(IEnumerable<ValidationFailure> failures) :this()
         {
-
+          
             foreach (var fail in failures) { 
             
             Errors.Add(fail.ErrorMessage);

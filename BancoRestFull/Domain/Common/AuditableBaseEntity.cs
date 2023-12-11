@@ -10,13 +10,13 @@ namespace Domain.Common
     {
         public virtual int id { get; set; }
 
-        public string CreatedBy { get; set; }
+        public string? CreatedBy { get; set; }
 
 
-        public DateTime Create { get; set; }
+        public DateTime? Create { get; set; }
 
 
-        public string LastModifiedBy { get; set; }
+        public string? LastModifiedBy { get; set; }
 
 
         public DateTime? LastModified { get; set; }

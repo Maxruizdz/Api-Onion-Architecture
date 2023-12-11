@@ -7,7 +7,8 @@ namespace WebAPI.Controllers
 
     
     [ApiController]
-    [Route("api/v[version:ApiVersion}/[controller]")]
+
+    [Route("api/v{version:ApiVersion}/[controller]")]
     public abstract class BaseApiController : ControllerBase
     {
         private IMediator _mediator;
