@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Feautres\Clientes\Commands\DeleteClienteCommand\**" />
     <Compile Remove="Feautres\Clientes\Queries\**" />
-    <EmbeddedResource Remove="Feautres\Clientes\Commands\DeleteClienteCommand\**" />
     <EmbeddedResource Remove="Feautres\Clientes\Queries\**" />
-    <None Remove="Feautres\Clientes\Commands\DeleteClienteCommand\**" />
     <None Remove="Feautres\Clientes\Queries\**" />
   </ItemGroup>
 
@@ -23,10 +20,6 @@
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.1" />
     <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Feautres\Clientes\Commands\UpdateClienteCommand\" />
   </ItemGroup>
 
   <ItemGroup>
