@@ -1,9 +1,11 @@
 ﻿using Application.Feautres.Clientes.Commands.CreateClienteCommand;
 using Application.Feautres.Clientes.Commands.DeleteClienteCommand;
 using Application.Feautres.Clientes.Commands.UpdateClienteCommand;
+using Application.Feautres.Clientes.Queries.GetClienteByid;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace WebAPI.Controllers.v1
 {
@@ -21,6 +23,20 @@ namespace WebAPI.Controllers.v1
 
 
         }
+
+
+
+        [HttpGet("id")]
+
+        public async Task<ActionResult> GetClienteId(int id) {
+
+
+            return Ok(await _mediator.Send(new GetClienteByidQueries { id= id}));
+
+
+
+        }
+
         [HttpPost]
 
         public async Task<ActionResult> Post(CreateClienteCommand command) {
