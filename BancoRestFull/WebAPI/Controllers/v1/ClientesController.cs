@@ -1,6 +1,7 @@
 ﻿using Application.Feautres.Clientes.Commands.CreateClienteCommand;
 using Application.Feautres.Clientes.Commands.DeleteClienteCommand;
 using Application.Feautres.Clientes.Commands.UpdateClienteCommand;
+using Application.Feautres.Clientes.Queries.GetClient;
 using Application.Feautres.Clientes.Queries.GetClienteByid;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -23,7 +24,24 @@ namespace WebAPI.Controllers.v1
 
 
         }
+        
+        [HttpGet]
 
+        public async Task<ActionResult> GetCliente([FromQuery]GetAllClienteQueriesParameter queries) {
+            
+
+
+            return Ok(await _mediator.Send(new GetAllClienteQueries { PageNumber= queries.PageNumber,
+                PageSize= queries.PageSize,
+                Nombre= queries.nombre ,
+                Apellido= queries.apellido}));
+
+
+
+
+
+
+        }
 
 
         [HttpGet("id")]
