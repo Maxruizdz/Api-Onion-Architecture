@@ -23,7 +23,16 @@ namespace Persistence
             #region Repositories
             service.AddTransient(typeof(IRepositoryAsync<>), typeof(MyRepositotyAsync<>));
             #endregion
+            #region Caching
+            service.AddStackExchangeRedisCache(options =>
+            {
 
+                options.Configuration = "localhost:6379";
+
+
+            });
+
+            #endregion
 
         }
 
