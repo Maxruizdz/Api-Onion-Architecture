@@ -97,5 +97,3 @@ C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\bin\Debug\n
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\bin\Debug\net7.0\StackExchange.Redis.dll
-C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
-C:\Users\usuario\Desktop\Api-Onion-Architecture\BancoRestFull\WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
