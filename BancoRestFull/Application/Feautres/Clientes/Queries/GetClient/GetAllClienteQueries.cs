@@ -62,6 +62,7 @@ namespace Application.Feautres.Clientes.Queries.GetClient
 
                 await _distributedCache.SetAsync(cacheKey,redisListadoClientes, options);
 
+
             }
           
 
